@@ -38,4 +38,11 @@ h1 {
     text-transform: uppercase;
 }
 
-/** CODIGO AQUI **/
+/** New code here **/
+@media (min-width: 768px) {
+    .two-columns{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 2rem;
+    }
+}
