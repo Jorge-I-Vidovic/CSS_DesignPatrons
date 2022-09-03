@@ -47,18 +47,5 @@ p {
     text-transform: uppercase;
 }
 
-@media (min-width: 768px) {
-    .sidebar{
-        display: flex;
-        justify-content: space-between;
-        column-gap: 3.5rem;
-    }
 
-    aside{
-        flex: 1;
-    }
-
-    article{
-        flex: 3;
-    }
-}
+/** CODIGO AQUI **/
